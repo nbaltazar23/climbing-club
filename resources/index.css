@@ -1,0 +1,294 @@
+/*UNIVERSAL RULES*/
+html {
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #ece4b7;
+    display: flex;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: #545643;
+    width: 100%;
+}
+
+/*NAVIGATION BAR RULES*/
+header {
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    background-color: #7b9ea8;
+    z-index: 1;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+}
+
+nav li {
+    font-size: 2vw;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #ece4b7;
+}
+
+nav a:hover {
+    border: 2px #ece4b7 dashed;
+}
+
+nav a:active {
+    color: #e6aa68;
+    border: 2px #e6aa68 dashed;
+}
+
+/*MAIN CONTENT*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    width: 90%;
+    height: fit-content;
+    margin: 95px 0;
+    margin-bottom: 20px;
+    background-image: url('./images/title-background.jpeg');
+    background-size: cover;
+    border: 5px #D36135 groove;
+}
+
+.title-container {
+    padding: 2px;
+}
+
+.title-container h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 5vw;
+    text-shadow: .5vw .5vw #D36135;
+}
+
+#aboutus {
+    width: 80%;
+    height: fit-content;
+    border: 5px #D36135 groove;
+    background-color: #D36135;
+    border-radius: 5vw;
+}
+
+.aboutus-container h3 {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.aboutus-container p {
+    margin: 0;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+#events {
+    width: 90%;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.events-container h3 {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.events-container p {
+    font-size: 1.5vw;
+}
+
+.events-container table {
+    border: 5px #D36135 groove;
+    background-color: #D36135;
+}
+
+.events-container thead tr td {
+    font-weight: 400;
+    font-size: 1.5vw;
+    border-bottom: 3px #D36135 groove;
+    border-right: 3px #D36135 groove;
+}
+
+.events-container tbody tr td {
+    border-right: 3px #D36135 groove;
+    font-size: 1.5vw;
+    padding: 2px;
+}
+
+#members {
+    width: 90%;
+    height: fit-content;
+    margin: 20px;
+    border: 5px #D36135 groove;
+    background-color: #D36135;
+}
+
+.members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-container h3 {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.members-container h4 {
+    font-size: 1.75vw;
+    margin-bottom: 0;
+}
+
+.members-container p {
+    font-size: 1.5vw
+}
+
+.members-container figcaption {
+    font-size: 1.5vw
+}
+
+.spotlight-container {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.spotlight-one {
+    background:
+    linear-gradient(to right, #e6aa68 4px, transparent 4px) 0 0,
+    linear-gradient(to right, #e6aa68 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #e6aa68 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, #e6aa68 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, #e6aa68 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, #e6aa68 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #e6aa68 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, #e6aa68 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 45%;
+    padding-top: 5px;
+    height: inherit;
+}
+
+.spotlight-one p {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5vw;
+}
+
+.spotlight-two {
+    background:
+    linear-gradient(to right, #e6aa68 4px, transparent 4px) 0 0,
+    linear-gradient(to right, #e6aa68 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #e6aa68 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, #e6aa68 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, #e6aa68 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, #e6aa68 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #e6aa68 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, #e6aa68 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 45%;
+    padding-top: 5px;
+    height: inherit;
+}
+
+.spotlight-two p {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5vw;
+}
+
+.clubphoto-container {
+    margin-top: 2vh;
+    padding-top: 5px;
+}
+
+#contactus {
+    width: 80%;
+    height: fit-content;
+}
+
+.contactus-container h3 {
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.contactus-container p {
+    font-size: 1.5vw;
+}
+
+.button {
+    background-color: #D36135; /* Green */
+    border: none;
+    color: #ece4b7;
+    padding: 2vh 3vw;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px #D36135 dotted;
+    background-color: #545643;
+    color: #D36135;
+}
+
+footer {
+   height: fit-content; 
+   width: 100%;
+   background-image: linear-gradient(to bottom, rgba(123, 158, 168, 0), rgba(123, 158, 168, 1));
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+footer h5 {
+    font-size: 1vw;
+}
+
+@media only screen and (min-width: 320px) {
+    #title {
+        width: 90%;
+        height: fit-content;
+        margin: 12.2vh;
+        margin-bottom: 20px;
+        background-image: url('https://as1.ftcdn.net/v2/jpg/03/80/10/20/1000_F_380102041_De08BDqtZYDnYukP2WPP3azhILKsafCd.jpg');
+        background-size: cover;
+        border: 5px #D36135 groove;
+    }
+
+
+    .responsive {
+        height: inherit;
+        width: 55%;
+    }
+}
+
